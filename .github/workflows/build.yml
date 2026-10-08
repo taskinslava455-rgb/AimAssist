@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Unzip project
-        run: unzip -q AimAssist_Fabric_1.21.11_Android.zip -d project
+        run: unzip -q AimAssist_Fabric_1.21.11_Fixed.zip -d project
 
       - name: Setup Java
         uses: actions/setup-java@v4
